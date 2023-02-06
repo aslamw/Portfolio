@@ -156,3 +156,39 @@ main{
     }
     
 }
+
+/* -----------------footer------------- */
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 100vw;
+    padding: 10px;
+
+    background-color: var(--blue-dark);
+}
+.box_andress{
+    display: flex;
+}
+.andress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+
+    margin-right: 50px;
+
+    transition: 0.5s;
+}
+.andress:hover{
+    background-color: var(--blue-medium);
+    transform: translatey(-20px);
+}
+.icon{
+    width: 45px;
+    height: 45px;
+}
