@@ -19,29 +19,23 @@ header{
     border-radius: 100%;
     width: 150px;
 
-    padding: 2px;
+    padding: 6px;
     margin: 30px;
     margin-top: 140px;
+    transition: 1s;
 
     background-color: var(--blue-dark);
-}
-.perfil h3{
-    display: none;
-    text-align: center;
-    padding: 2px;
-    color: white;
-}
-.perfil:hover > h3{
-    display: flex;
-    font-size: 23px;
+
+    animation: parfil_ani 2s initial;
 }
 .perfil:hover{
-    margin-top: 200px;
-    width: 160px;
-
-    padding: 4px;
-    border-radius: 50%
+    padding: 10px;
+    background-color: var(--blue-medium);
 }
+
+
+
+
 .perfil img{
     border-radius: 100%; 
     width: 150px; 
@@ -88,6 +82,8 @@ main{
     margin-right: 500px;
     font-size: 25px;
     width: 800px;
+
+    color: var(--blue-dark);
 
     z-index: 1;
 }
