@@ -1,0 +1,138 @@
+/* ----------menu topo---------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 80px;
+
+    background-color: var(--blue-dark);
+}
+
+/* foto do perfil */
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 150px;
+
+    padding: 2px;
+    margin: 30px;
+    margin-top: 140px;
+
+    background-color: var(--blue-dark);
+}
+.perfil h3{
+    display: none;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+.perfil:hover > h3{
+    display: flex;
+    font-size: 23px;
+}
+.perfil:hover{
+    margin-top: 200px;
+    width: 160px;
+
+    padding: 4px;
+    border-radius: 50%
+}
+.perfil img{
+    border-radius: 100%; 
+    width: 150px; 
+}
+
+/* texto de páginas específicas */
+.pages{
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 50px;
+    width: 500px;
+
+}
+.pages a{
+    text-decoration: none;
+    font-size: 30px;
+
+    color: white;
+}
+.pages a:hover{
+    color: var(--blue-medium);
+    transform: scale(1.1);
+}
+
+/* ------------área principal ------------- */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* apresentação */
+.Faixa{
+    text-align: center;
+    margin-top: 150px;
+    transform: rotate(-45deg);
+}
+.my{
+    margin-right: 500px;
+    font-size: 25px;
+    width: 800px;
+
+    z-index: 1;
+}
+.Faixa h3{
+    margin-right: 300px;
+    font-size: 30px;
+    background-color: red;
+}
+.my_faixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 120vw;
+    
+    height: 400px;
+    z-index: 0;
+}
+.token_box{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 40vw;
+    margin-left: 200px;
+
+}
+.token{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: white;
+
+    border-radius: 100%;
+    border: 4px dashed var(--blue-dark);
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    z-index: 1;
+}
+.token img{
+    width: 50px;
+    height: 50px;
+    
+    z-index: 1;
+}
