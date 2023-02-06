@@ -136,3 +136,19 @@ main{
     
     z-index: 1;
 }
+
+@media (max-width: 1500px){
+    .my{
+        margin-top: 70px;
+        width: 500px;
+        padding-left: 200px;
+        font-size: 20px;
+    }
+    .my_faixa{
+        width: 200vw;
+    }
+    .token_box{
+        width: 70vw;
+    }
+    
+}
